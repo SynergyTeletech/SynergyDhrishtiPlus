@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Eicher Motors </string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="dispenser">Dispenser</string>
+    <string name="connected">Connected</string>
+    <string name="atg">ATG</string>
+    <string name="status">Status</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="details">Details</string>
+    <string name="mis">MIS</string>
+    <string name="sales_receipt"><![CDATA[Sales & Receipt]]></string>
+    <string name="reminders">Reminders</string>
+    <string name="alarms">Alarms</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="stock">Current Stock</string>
+    <string name="no_internet">Please check your internet connection.!!</string>
+    <string name="server_problem">Server Problem.. Please try after sometime!!!</string>
+    <string name="please_wait">Please Wait.........</string>
+</resources>

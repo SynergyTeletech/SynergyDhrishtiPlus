@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingDefaultResource"
+    android:background="@drawable/scanning_bg_img">
+
+    <LinearLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/top_bar_color"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/scaner_text"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/topBar"
+        android:text="Scanning"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_centerHorizontal="true"
+
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_black_bg"/>
+
+
+
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/list"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="70dp"-->
+    <!--        android:layout_marginLeft="40dp"-->
+    <!--        android:layout_marginRight="40dp"-->
+    <!--        android:background="@color/dark_red"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/scaner_text"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        android:orientation="vertical"-->
+    <!--        >-->
+
+    <ScrollView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/scaner_text"
+        android:background="@color/dark_red"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent"
+            android:id="@+id/placeholder_lay"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <!--            <androidx.recyclerview.widget.RecyclerView-->
+            <!--                android:layout_marginBottom="20dp"-->
+            <!--                android:id="@+id/hardware_rc"-->
+
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content" />-->
+        </LinearLayout>
+
+    </ScrollView>
+    <!--    </LinearLayout>-->
+
+
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:layout_marginTop="20dp"-->
+    <!--            android:gravity="center_vertical">-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="0dp"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="@string/atg"-->
+    <!--                android:textSize="18sp"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:layout_gravity="center_vertical"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textAllCaps="true"/>-->
+
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/totalDisconnected"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="@string/disconnected"-->
+    <!--                android:gravity="center"-->
+    <!--                android:textSize="16sp"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:layout_gravity="center_vertical"-->
+    <!--                android:background="@drawable/round_transparent_bg"-->
+    <!--                android:paddingStart="10dp"-->
+    <!--                android:paddingEnd="10dp"-->
+    <!--                android:paddingTop="5dp"-->
+    <!--                android:paddingBottom="5dp"-->
+    <!--                android:textAllCaps="true"/>-->
+    <!--        </LinearLayout>-->
+
+    <!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-89dp">
+
+        <View
+            android:id="@+id/scanning_bar_view"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/scan_bar_bg" />
+
+
+    </LinearLayout>
+</RelativeLayout>

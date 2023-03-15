@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/myrect.xml -->
+<layer-list  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="-10dp" android:bottom="-10dp">
+        <shape
+            android:shape="rectangle">
+            <corners android:radius="500dp"/>
+            <gradient
+                android:centerColor="@color/dark_red"/>
+        </shape>
+    </item>
+    <item android:left="50dp" android:right="50dp">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@color/stock_fragment_bg" />/>
+        </shape>
+    </item>
+</layer-list>

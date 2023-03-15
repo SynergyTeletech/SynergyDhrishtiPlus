@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14375" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/drawable/cell_shape.xml" value="0.146875" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/drawable/divider.xml" value="0.146875" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/drawable/ic_baseline_chat_bubble_outline_24.xml" value="0.116796875" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/drawable/ic_down.xml" value="0.14375" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14375" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/drawable/round_red_bg.xml" value="0.146875" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/drawable/round_transparent_bg.xml" value="0.146875" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout-land/activity_common.xml" value="0.1" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout-land/activity_login.xml" value="0.1" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout-land/fragment_pump_list.xml" value="0.26139088729016785" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout-land/fragment_scanner_dialog.xml" value="0.10666666666666667" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout-land/fragment_status_and_stock.xml" value="0.1" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout/activity_rescanner.xml" value="0.134765625" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout/activity_scanner.xml" value="0.1" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout/atg_stock.xml" value="0.1" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout/current_status.xml" value="0.4466666666666667" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout/dispenser_single_layout.xml" value="0.1" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout/fragment_dispenser_detail.xml" value="0.134765625" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout/fragment_transaction_fragment.xml" value="0.134765625" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout/hardware_list.xml" value="0.16447368421052633" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout/nozzle_list_single_layout.xml" value="0.1" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout/progressbar.xml" value="0.1" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout/tank_list_single_layout.xml" value="0.1" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout/toolbar.xml" value="0.22" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/layout/transactionlist.xml" value="0.3333333333333333" />
+        <entry key="..\:/Pravin Android/SynergyDhrishtiPlus/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.130078125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.10666666666666667" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

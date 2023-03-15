@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/transaction_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/white_border_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/tn_nov"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/cell_shape"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Transaction ID" />
+
+        <TextView
+            android:id="@+id/vol_txv"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/cell_shape"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="Volume" />
+
+        <TextView
+            android:id="@+id/Amt_txv"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/cell_shape"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="Amount" />
+
+        <TextView
+            android:id="@+id/price_txtv"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/cell_shape"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="Price" />
+
+        <TextView
+            android:id="@+id/totaliser_v"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/cell_shape"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="Totaliser" />
+
+        <TextView
+            android:id="@+id/dispenser_v"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/cell_shape"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="Dispenser ID" />
+        <TextView
+            android:id="@+id/start_time"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:background="@drawable/cell_shape"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="Start time" />
+        <TextView
+            android:id="@+id/end_time"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:background="@drawable/cell_shape"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="End time" />
+
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/transactionRecyclerViews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        />
+</LinearLayout>

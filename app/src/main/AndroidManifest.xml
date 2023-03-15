@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.synergy.synergydhrishtiplus">
+
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".SynergyApplicationClass"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SynergyDhrishtiPlus"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <receiver android:name = ".broadcast.NetworkReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />.
+            </intent-filter>
+        </receiver>
+
+
+        <service
+            android:name=".service.TokheumService8"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.TokheumService6"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.TokheumService5"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.TokheumService4"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.TokheumService1"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.MyService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.TokheumService2"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.TokheumService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.DispenserServices"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".activity.BaseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CommonActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation"
+            android:exported="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
